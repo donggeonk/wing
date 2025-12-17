@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#0e0f14] text-white antialiased;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-700 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600;
+}
+
+/* Markdown Styles Override */
+.prose strong {
+  @apply text-inherit font-bold;
+}
+.prose ul {
+  @apply my-2 list-disc pl-4;
+}
+.prose ol {
+  @apply my-2 list-decimal pl-4;
+}
+.prose code {
+  @apply bg-black/20 px-1 py-0.5 rounded text-sm font-mono text-inherit;
+}
+/* Tables in bot messages */
+.prose table {
+  @apply w-full text-left my-2 border-collapse text-sm;
+}
+.prose th {
+  @apply border-b border-gray-600 pb-2 font-semibold text-rh-subtext uppercase text-xs tracking-wider;
+}
+.prose td {
+  @apply py-2 border-b border-gray-700/50;
+}
