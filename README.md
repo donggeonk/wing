@@ -1,6 +1,10 @@
-# Trading Dashboard MVP
+# Trading Agent MVP
 
 A full-stack trading dashboard with an AI-powered chat assistant for portfolio analysis.
+
+Product Demo: https://youtu.be/eZDtmIYLHvk
+CLI Demo: https://youtu.be/YvyS0EDiCX8
+
 
 ## 🚀 Features
 
